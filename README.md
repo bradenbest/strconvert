@@ -6,30 +6,41 @@ Usage examples
 * Hex Encoder:
 
     $ hexencode [string]
+
     $ echo [string] | hexencode
+
     $ hexencode < [file]
+
     $ fhexencde [file]
 
 * Hex Decoder:
 
     $ hexdecde [string]
+
     $ echo [string] | hexdecode
+
     $ hexdecode < [file]
+
     $ fhexdecode [file]
-  
 
 * Binary Encoder:
 
     $ binencode [string]
+
     $ echo [string] | binencode
+
     $ binencode < [file]
+
     $ fbinencode [file]
 
 * Binary Decoder:
 
     $ bindecde [string]
+
     $ echo [string] | bindecode
+
     $ bindecode < [file]
+
     $ fbindecode [file]
 
 
