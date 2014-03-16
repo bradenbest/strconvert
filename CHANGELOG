@@ -1,0 +1,12 @@
+# format is as follows:
+# Type: Description of To-do item
+#   Message saying it's done, as a sort of "check"
+
+Bug: handle_stdin() isn't working correctly. Try and fix it
+  Fixed.  Was checking for 0xa0 (nbsp) instead of 0x0a (linefeed), and that alone was enough to bug out both sides of the conversion.
+
+Implement: handle_file() directives for working with bindecode and hexdecode, as well as updating the Mafeile to reflect
+  Done.
+
+Bug: file operations are outputting non-stdin style
+  Fixed. Changed '(str,0)' to '(str,1)'
