@@ -3,7 +3,7 @@
 Usage examples
 --------------
 
-* Hex Encoder:
+#####Hex Encoder:
 
     $ hexencode [string]
 
@@ -13,7 +13,7 @@ Usage examples
 
     $ fhexencde [file]
 
-* Hex Decoder:
+#####Hex Decoder:
 
     $ hexdecde [string]
 
@@ -23,7 +23,7 @@ Usage examples
 
     $ fhexdecode [file]
 
-* Binary Encoder:
+#####Binary Encoder:
 
     $ binencode [string]
 
@@ -33,7 +33,7 @@ Usage examples
 
     $ fbinencode [file]
 
-* Binary Decoder:
+#####Binary Decoder:
 
     $ bindecde [string]
 
